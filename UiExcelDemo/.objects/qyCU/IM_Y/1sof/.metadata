@@ -1,0 +1,13 @@
+﻿{
+  "Name": "UiDemo - Excel",
+  "Type": "Screen",
+  "Id": "1sof2W9wxE24E-84RRd7Rg",
+  "Reference": "hDskwxWvlE-jLIgpP6xHGg/1sof2W9wxE24E-84RRd7Rg",
+  "ParentRef": "hDskwxWvlE-jLIgpP6xHGg/IM_Ynxx76UWiWoJkuOV5HA",
+  "Created": "2024-07-17T05:52:05.111505Z",
+  "Updated": "2024-07-17T05:52:05.111505Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

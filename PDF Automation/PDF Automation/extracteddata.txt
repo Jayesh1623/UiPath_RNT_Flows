@@ -1,0 +1,45 @@
+                                                                                               INVOICE
+1 Main Road
+Johannesburg
+South Africa                                                                INVOICE #                      DATE
+
+leon@robopro.co                                                                3031                     2016/10/27
+
+                                                                          CUSTOMER ID                     TERMS
+
+                                                                                609                     Net 30 Days
+
+  BILL TO
+
+Lauritz Gravell
+Yakidoo
+0 Manley Parkway
+Yingwusitang
+123-518-2939
+lgravellnh@imageshack.us
+
+  DESCRIPTION                                                      QTY (hours)    UNIT PRICE ($)        AMOUNT ($)
+
+Service Fee                                                             1                      200,00                         200,00
+Additional Services                                                     6                        75,00                         450,00
+                                                                                                                                -
+                                                                                                                                -
+                                                                                                                                -
+                                                                                                                                -
+                                                                                                                                -
+                                                                                                                                -
+                                                                                                                                -
+                                                                                                                                -
+                                                                                                                                -
+                                                                                                                                -
+                                                                                                                                -
+                                                                                                                                -
+                                                                                                                                -
+                                                                                                                                -
+                                                                                                                                -
+                                                                                                                                -
+
+                Thank you for your business!                        TOTAL                                            650,00
+
+                               If you have any questions about this invoice, please contact
+                                                [Leon, leon@robopro.co]

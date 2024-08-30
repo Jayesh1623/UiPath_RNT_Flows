@@ -1,0 +1,40 @@
+{
+  "assemblyStates": {
+    "ExtendedExtractionRe.YCZ7nyKBZM1M5yX8jpuu9": {
+      "namespace": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.FinancialStatements.Bundle",
+      "providerName": "CustomEntities",
+      "key": {
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.FinancialStatements",
+        "hash": "MTY2OTMwNzQyNw",
+        "assemblyName": "ExtendedExtractionRe.YCZ7nyKBZM1M5yX8jpuu9"
+      }
+    },
+    "ExtendedExtractionRe.rFa42DbA6G1wAwnF3BsrEV1": {
+      "namespace": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.Receipts.Bundle",
+      "providerName": "CustomEntities",
+      "key": {
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.Receipts",
+        "hash": "LTI3NzE1OTg",
+        "assemblyName": "ExtendedExtractionRe.rFa42DbA6G1wAwnF3BsrEV1"
+      }
+    },
+    "ExtendedExtractionRe.c31RPvpPgB1TDCcNkSoTm": {
+      "namespace": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.ACORD131.Bundle",
+      "providerName": "CustomEntities",
+      "key": {
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.ACORD131",
+        "hash": "MTU1MzE4OTMzNg",
+        "assemblyName": "ExtendedExtractionRe.c31RPvpPgB1TDCcNkSoTm"
+      }
+    },
+    "ExtendedExtractionRe.TGoHEyOqaG1vfXvDQFuip3": {
+      "namespace": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.ACORD25.Bundle",
+      "providerName": "CustomEntities",
+      "key": {
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.ACORD25",
+        "hash": "LTY3MjE4NjM2",
+        "assemblyName": "ExtendedExtractionRe.TGoHEyOqaG1vfXvDQFuip3"
+      }
+    }
+  }
+}

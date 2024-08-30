@@ -1,0 +1,145 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Document_Path&Sequence_1",
+        "Taxonomy&Sequence_1",
+        "Digital_Text&Sequence_1",
+        "DOM&Sequence_1",
+        "Classification_Results&Sequence_1",
+        "Extraction_Result&Sequence_1",
+        "Validate_Extracted_Result&Sequence_1",
+        "DataSet&Sequence_1",
+        "Excel_Headers&Sequence_1",
+        "Headers&Sequence_1",
+        "Field_Value&Sequence_1",
+        "int_Counter&Sequence_1",
+        "Digital_Text1&Sequence_1",
+        "DOM1&Sequence_1",
+        "TIN_Output&Sequence_1",
+        "TIN_Value&Sequence_15"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence2.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Taxonomy&Sequence_2",
+        "Digital_Text&Sequence_2",
+        "DOM&Sequence_2",
+        "Classification_Results&Sequence_2",
+        "Extraction_Result&Sequence_2",
+        "Validate_Extracted_Result&Sequence_2",
+        "DataSet&Sequence_2",
+        "Excel_Headers&Sequence_2",
+        "Headers&Sequence_2",
+        "Field_Value&Sequence_2",
+        "Extraction_Values&Sequence_2",
+        "int_Counter&Sequence_2",
+        "Replace&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Taxonomy&Sequence_2",
+        "Digital_Text&Sequence_2",
+        "DOM&Sequence_2",
+        "Classification_Results&Sequence_2",
+        "Extraction_Result&Sequence_2",
+        "Validate_Extracted_Result&Sequence_2",
+        "DataSet&Sequence_2",
+        "Excel_Headers&Sequence_2",
+        "Headers&Sequence_2",
+        "Field_Value&Sequence_2",
+        "Extraction_Values&Sequence_2",
+        "int_Counter&Sequence_2",
+        "Replace&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence4.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Taxonomy&Sequence_1",
+        "Document_Path&Sequence_1",
+        "Document_Text&Sequence_1",
+        "DOM&Sequence_1",
+        "Extraction_Results&Sequence_1",
+        "Validated_Results&Sequence_1",
+        "Dataset&Sequence_1",
+        "A&Sequence_1",
+        "DT_OPT&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "IN_DT"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence3.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Pdf_Text&Sequence_2",
+        "TIN_No_2&Sequence_2",
+        "TIN_No_1&Sequence_2",
+        "Payee_Name&Sequence_2",
+        "Payor_Name&Sequence_2",
+        "Reg_Add_1&Sequence_2",
+        "Reg_Add_2&Sequence_2",
+        "From_date&Sequence_2",
+        "To_Date&Sequence_2",
+        "DT_Text&Sequence_2",
+        "DT&Sequence_2",
+        "ZIP_Code_1&Sequence_2",
+        "ZIP_Code_2&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence1.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Taxonomy&Sequence_2",
+        "Digital_Text&Sequence_2",
+        "DOM&Sequence_2",
+        "Classification_Results&Sequence_2",
+        "Extraction_Result&Sequence_2",
+        "Validate_Extracted_Result&Sequence_2",
+        "DataSet&Sequence_2",
+        "Excel_Headers&Sequence_2",
+        "Headers&Sequence_2",
+        "Field_Value&Sequence_2",
+        "Extraction_Values&Sequence_2",
+        "int_Counter&Sequence_2",
+        "Replace&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

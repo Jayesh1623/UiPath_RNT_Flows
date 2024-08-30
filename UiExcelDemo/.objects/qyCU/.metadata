@@ -1,0 +1,12 @@
+﻿{
+  "Name": "UiDemo - Excel",
+  "Type": "App",
+  "Id": "qyCUAbqer02cm6Ed6OHffw",
+  "Reference": "hDskwxWvlE-jLIgpP6xHGg/qyCUAbqer02cm6Ed6OHffw",
+  "Created": "2024-07-17T05:52:05.0353617Z",
+  "Updated": "2024-07-17T05:52:05.0353617Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

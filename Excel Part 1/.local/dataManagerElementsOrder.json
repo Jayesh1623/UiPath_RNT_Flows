@@ -1,0 +1,76 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "varout&Sequence_8",
+        "vardt&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Child Seq 1.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "VAROUT&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "child seq 2.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Varouter&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Child seq 3.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "varout&Sequence_1",
+        "updateddt&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Child seq 4.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "varout&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Child seq 5.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "CellColour&Sequence_3",
+        "varsheet&Sequence_1",
+        "varoutputsheets&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

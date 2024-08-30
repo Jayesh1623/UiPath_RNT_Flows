@@ -1,0 +1,94 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "NO&Sequence_20",
+        "StdData&Sequence_20",
+        "DT&Sequence_20",
+        "RowIndex&Sequence_20",
+        "ExtractDataTable&Sequence_20",
+        "IndexNo&Sequence_20",
+        "Index&Sequence_23"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "FilterPartDT&Sequence_42",
+        "DT&Sequence_42",
+        "StdData&Sequence_42",
+        "PartsData&Sequence_42",
+        "StrDT&Sequence_42",
+        "RowIndex&Sequence_42",
+        "Temp&Sequence_42",
+        "Column&Sequence_36",
+        "Column&Sequence_39"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "argument1"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence1.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "RowIndex&Sequence_22",
+        "DT&Sequence_22",
+        "StdData&Sequence_22",
+        "PartsData&Sequence_22",
+        "Temp&Sequence_22",
+        "TempDt&Sequence_22",
+        "Column&Sequence_23",
+        "Index&Sequence_23",
+        "Temp&Sequence_23",
+        "Sheet_Names&Sequence_19"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence2.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Temp&Sequence_1",
+        "TempDt&Sequence_1",
+        "PartsData&Sequence_1",
+        "StdData&Sequence_1",
+        "DT&Sequence_1",
+        "RowIndex&Sequence_1",
+        "CellIndex&Sequence_1",
+        "FilteredDT&Sequence_4",
+        "RowIndex&Sequence_4",
+        "CellValue&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence3.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

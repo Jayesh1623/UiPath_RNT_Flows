@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="kGq4w8NcY0ihDsXKd3c4gw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="e8f1e0d0-80db-4b11-9f1e-0414b45e59f5" CvElementArea="263, 939, 121, 43" CvTextArea="286, 951, 79, 22" CvTextArgument="Std_Part" CvType="Button" DesignTimeRectangle="270, 938, 116, 48" DesignTimeScaleFactor="1.5" FullSelectorArgument="&lt;uia automationid='UiDemo.xlsx' cls='ExcelBookTabControl' name='UiDemo' /&gt;&lt;uia automationid='SheetTab' name='Std_Part' role='Sheet Tab' /&gt;" FuzzySelectorArgument="&lt;uia automationid='UiDemo.xlsx' cls='ExcelBookTabControl' name='UiDemo' /&gt;&lt;uia automationid='SheetTab' name='Std_Part' role='Sheet Tab' check:fulltext='Std_Part' /&gt;" Guid="b3854fb7-83f9-4d8a-95e2-b6c436a62837" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='UiDemo - Excel' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e8f1e0d0-80db-4b11-9f1e-0414b45e59f5" CvElementArea="177, 938, 85, 42" CvTextArea="187, 946, 63, 19" CvTextArgument="Sheet1" CvType="Button" DesignTimeRectangle="171, 938, 99, 48" FullSelectorArgument="&lt;uia automationid='UiDemo.xlsx' cls='ExcelBookTabControl' name='UiDemo' /&gt;&lt;uia automationid='SheetTab' name='Sheet1' role='Sheet Tab' /&gt;" FuzzySelectorArgument="&lt;uia automationid='UiDemo.xlsx' cls='ExcelBookTabControl' name='UiDemo' /&gt;&lt;uia automationid='SheetTab' name='Sheet1' role='Sheet Tab' check:fulltext='Sheet1' /&gt;" Guid="63963424-862e-4f66-8dcb-1dace9444f1b" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a2d58c378afe20f298b3ac56da176a41.png" xmlns="">0nRpuLNkAGUyyY9vZQ2flmA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,234 @@
+Insured: ZACHARY CONFECTIONS, INC.
+
+Value Through Date: 05-19-21
+
+Sorted by Date of Loss
+
+Policy Loc Policy Effect Named Insured
+
+ETD0541521 07-01-19 ZACHARY CONFECTIONS, INC.
+
+ETD0541521 07-01-19 ZACHARY CONFECTIONS, INC.
+
+ETD0541521 07-01-19 ZACHARY CONFECTIONS, INC.
+
+ETD0541521 07-01-19 ZACHARY CONFECTIONS, INC.
+
+ETD0541521 07-01-19 ZACHARY CONFECTIONS, INC.
+
+ETD0541521 07-01-19 ZACHARY CONFECTIONS, INC.
+
+ETD0541521 07-01-19 ZACHARY CONFECTIONS, INC.
+
+ETD0541521 07-01-19 ZACHARY CONFECTIONS, INC.
+
+Next Month-End Closing Date: 04-30-20
+
+The Cincinnati Insurance Companies - Claims Loss Runs
+
+Oc #
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+Loss Cat Date Loss Description
+
+08-20-19 PRODUCTS LIABILITY
+
+08-27-19 OTHER LIABILITY
+
+12-16-19 PRODUCTS LIABILITY
+
+01-07-20 CARE/CUSTODY/CONTROL CARE/CUSTODY/CONTROL
+
+01-09-20 CARE/CUSTODY/CONTROL
+
+01-12-20 CARE/CUSTODY/CONTROL
+
+01-13-20 CARE/CUSTODY/CONTROL
+
+01-15-20 PERSON INJ (EXCL BI)
+
+Loss Type
+
+BI
+
+BI
+
+BILPCO
+
+MED BILPCO
+
+BILPCO
+
+BILPCO
+
+BILPCO
+
+BILPCO
+
+Claimant/Payee Bryan Case
+
+Total for Loss Date 08-20-19
+
+Linda Pettway Total for Loss Date 08-27-19 kilda Chiloquin
+
+Total for Loss Date 12-16-19
+
+Mitchell Karels Mitch Karnels
+
+Total for Loss Date 01-07-20 Brian Huntzinger
+
+Total for Loss Date 01-09-20
+
+Terry Barrow
+
+Total for Loss Date 01-12-20
+
+Jake Chance
+
+Total for Loss Date 01-13-20
+
+Jon Gardner
+
+Agency: 12345 - MBAH INSURANCE
+
+Last Month-End Closing Date: 03-31-21
+
+End Rsv or Paid Salv/Subr Expense Month Closed Incurred
+
+0
+
+0
+
+0 10/19
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+1 10/19
+
+1
+
+0
+
+0
+
+1
+
+0
+
+1
+
+0
+
+0
+
+0 7,500 7,500
+
+0
+
+0
+
+0 7,500 7,500
+
+4,979 0
+
+0 0
+
+0 5,021 10,000 0 10,000 10,000
+
+4,979 0
+
+0 0
+
+0 15,021 20,000 0 5,000 5,000
+
+0
+
+0
+
+0 5,000 5,000
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0 03/20
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+500
+
+0
+
+0 03/20 500
+
+Total for Loss Date 01-15-20               500     0   0   0        500   
+Total for Policy Effective Date 07-01-19   5,479   0   1   27,521   33,001
+Total for Policy Symbol ETD                5,479   0   1   27,521   33,001
+
+Report Grand Total 5,479 0 1 27,521 33,001
+
+COPYRIGHT 2020, THE CINCINNATI INSURANCE COMPANY
+
+4-20-2020
+
+The information contained in this report is proprietary to The Cincinnati Insurance Company and its subsidiaries and Page 1 affiliates.
+Unauthorized redisclosure or use of this information is prohibited.

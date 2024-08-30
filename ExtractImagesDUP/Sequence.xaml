@@ -1,0 +1,332 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Sequence" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="854,3117.9999999999995" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/intelligentocr" xmlns:p1="http://schemas.uipath.com/workflow/activities/ocr" xmlns:p2="http://schemas.uipath.com/workflow/activities/intelligentocr/classification" xmlns:p3="http://schemas.uipath.com/workflow/activities/document-processing-contracts/classification" xmlns:p4="http://schemas.uipath.com/workflow/activities/document-processing-contracts/dom" xmlns:p5="http://schemas.uipath.com/workflow/activities/intelligentocr/extraction" xmlns:p6="http://schemas.uipath.com/workflow/activities/document-processing-contracts/extraction" xmlns:p7="http://schemas.uipath.com/workflow/activities/document-processing-contracts/results" xmlns:p8="http://schemas.uipath.com/workflow/activities/document-processing-contracts/taxonomy" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:sd2="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.DocumentProcessing.Contracts.Taxonomy</x:String>
+      <x:String>UiPath.DocumentProcessing.Contracts.Dom</x:String>
+      <x:String>UiPath.DocumentProcessing.Contracts.Results</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.IntelligentOCR.Activities.Digitization</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.Vision.OCR</x:String>
+      <x:String>UiPath.OCR.Contracts</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.DocumentProcessing.Contracts.Classification</x:String>
+      <x:String>UiPath.DocumentProcessing.Contracts.DataExtraction</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.IntelligentOCR.Activities.TaxonomyManagement</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.IntelligentOCR.Activities.DocumentClassification</x:String>
+      <x:String>UiPath.IntelligentOCR.Activities.DataExtraction</x:String>
+      <x:String>UiPath.IntelligentOCR.Activities.ValidationStation</x:String>
+      <x:String>UiPath.OCR.Activities</x:String>
+      <x:String>UiPath.OCR.Contracts.Activities</x:String>
+      <x:String>UiPath.DocumentProcessing.Contracts.Training</x:String>
+      <x:String>UiPath.DocumentProcessing.Contracts</x:String>
+      <x:String>UiPath.IntelligentOCR.Activities.Training</x:String>
+      <x:String>UiPath.SmartData.PositionBasedExtraction.Storage</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.DocumentProcessing.Contracts</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.IntelligentOCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Core</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Contracts</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.DocumentUnderstanding.ML.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.SmartData.PositionBasedExtraction</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="540,3053.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_5">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="p8:DocumentTaxonomy" Name="Taxonomy" />
+      <Variable x:TypeArguments="x:String" Default="C:\Users\Jayesh Patil\OneDrive - RABBIT AND TORTOISE TECHNOLOGY SOLUTIONS PRIVATE LIMITED\Desktop\Identity_Cards\2021_Czech_ID_card_back.jpg" Name="Document_Path" />
+      <Variable x:TypeArguments="x:String" Name="Digital_Text" />
+      <Variable x:TypeArguments="p4:Document" Name="DOM" />
+      <Variable x:TypeArguments="p7:ClassificationResult[]" Name="Classification_Results" />
+      <Variable x:TypeArguments="p7:ExtractionResult" Name="Extraction_Results" />
+      <Variable x:TypeArguments="p7:ExtractionResult" Name="Validation_Results" />
+      <Variable x:TypeArguments="sd2:DataSet" Name="Dataset" />
+      <Variable x:TypeArguments="x:Boolean" Name="PathExits" />
+      <Variable x:TypeArguments="sd2:DataTable" Name="DT" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:BuildDataTable DataTable="[DT]" DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="478,92" sap2010:WorkflowViewState.IdRef="BuildDataTable_3" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;&lt;/NewDataSet&gt;" />
+    <p:LoadTaxonomy DisplayName="Load Taxonomy" sap:VirtualizedContainerService.HintSize="478,138.66666666666666" sap2010:WorkflowViewState.IdRef="LoadTaxonomy_3" Taxonomy="[Taxonomy]" />
+    <p:DigitizeDocument ApplyOcrMigrated="True" ApplyOcrOnPdf="Auto" DegreeOfParallelism="-1" DetectCheckboxes="True" DisplayName="Digitize Document" DocumentObjectModel="[DOM]" DocumentPath="[Document_Path]" DocumentText="[Digital_Text]" ForceApplyOCR="False" sap:VirtualizedContainerService.HintSize="478,336" sap2010:WorkflowViewState.IdRef="DigitizeDocument_3">
+      <p:DigitizeDocument.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, x:String, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))" Argument1="{x:Reference __ReferenceID0}" Argument2="{x:Reference __ReferenceID1}">
+          <p1:UiPathDocumentOCR Endpoint="{x:Null}" Output="{x:Null}" Text="{x:Null}" UseLocalServer="{x:Null}" ApiKey="pu0Z2AlXBHt3zKfvKAPhf2r+PBRm0jnHt0kqAYZnkQ3UJzB+eZsPKlRXzh1ZcVYjHzoSv5aarW300gAj3dqKqQ==" ComputeSkewAngle="False" DisplayName="UiPath Document OCR" ExtractWords="True" sap:VirtualizedContainerService.HintSize="312,25.333333333333332" sap2010:WorkflowViewState.IdRef="UiPathDocumentOCR_1" Language="auto" NoopExecution="False" Profile="None" Scale="1" Timeout="100000">
+            <p1:UiPathDocumentOCR.Image>
+              <InArgument x:TypeArguments="sd:Image">
+                <DelegateArgumentValue x:TypeArguments="sd:Image" sap2010:WorkflowViewState.IdRef="DelegateArgumentValue`1_1">
+                  <DelegateInArgument x:TypeArguments="sd:Image" x:Name="__ReferenceID0" Name="Image" />
+                </DelegateArgumentValue>
+              </InArgument>
+            </p1:UiPathDocumentOCR.Image>
+            <p1:UiPathDocumentOCR.PredictionId>
+              <InArgument x:TypeArguments="x:String">
+                <DelegateArgumentValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="DelegateArgumentValue`1_2">
+                  <DelegateInArgument x:TypeArguments="x:String" x:Name="__ReferenceID1" Name="PredictionId" />
+                </DelegateArgumentValue>
+              </InArgument>
+            </p1:UiPathDocumentOCR.PredictionId>
+          </p1:UiPathDocumentOCR>
+        </ActivityFunc>
+      </p:DigitizeDocument.OCREngine>
+    </p:DigitizeDocument>
+    <p2:ClassifyDocumentScope ClassificationResults="[Classification_Results]" DisplayName="Classify Document Scope" DocumentObjectModel="[DOM]" DocumentPath="[Document_Path]" DocumentText="[Digital_Text]" sap:VirtualizedContainerService.HintSize="478,477.3333333333333" sap2010:WorkflowViewState.IdRef="ClassifyDocumentScope_3" Taxonomy="[Taxonomy]" TaxonomyConfiguration="{}{&quot;TaxonomyMappings&quot;:{&quot;UIb94715726979441f8ad8518963394c2d&quot;:{&quot;DocumentTypeMappings&quot;:{&quot;Czech.Identity_Card.Pan_Card&quot;:{&quot;OriginalDocumentTypeId&quot;:&quot;Czech.Identity_Card.Pan_Card&quot;,&quot;ClassifierDocumentTypeId&quot;:null,&quot;IsDocumentTypeIdMapped&quot;:true},&quot;Czech.Identity_Card_BackSide.Pan_Card_Backside&quot;:{&quot;OriginalDocumentTypeId&quot;:&quot;Czech.Identity_Card_BackSide.Pan_Card_Backside&quot;,&quot;ClassifierDocumentTypeId&quot;:null,&quot;IsDocumentTypeIdMapped&quot;:true}}}},&quot;ClassifierMinimumConfidence&quot;:{&quot;UIb94715726979441f8ad8518963394c2d&quot;:&quot;0&quot;},&quot;DocumentTypesByPersistenceId&quot;:{&quot;UIb94715726979441f8ad8518963394c2d&quot;:[]}}">
+      <p2:ClassifyDocumentScope.Classifiers>
+        <p2:KeywordBasedClassifier HumanValidatedData="{x:Null}" LearningData="{x:Null}" DisplayName="Keyword Based Classifier" sap:VirtualizedContainerService.HintSize="222.66666666666666,115.33333333333333" sap2010:WorkflowViewState.IdRef="KeywordBasedClassifier_1" LearningFilePath="DocumentProcessing\Keyword.json" PersistenceId="UIb94715726979441f8ad8518963394c2d">
+          <p2:KeywordBasedClassifier.ClassifierResult>
+            <OutArgument x:TypeArguments="p3:ClassifierResult">
+              <DelegateArgumentReference x:TypeArguments="p3:ClassifierResult">
+                <DelegateOutArgument x:TypeArguments="p3:ClassifierResult" Name="ClassifierResult" />
+              </DelegateArgumentReference>
+            </OutArgument>
+          </p2:KeywordBasedClassifier.ClassifierResult>
+          <p2:KeywordBasedClassifier.DocumentObjectModel>
+            <InArgument x:TypeArguments="p4:Document">
+              <DelegateArgumentValue x:TypeArguments="p4:Document">
+                <DelegateInArgument x:TypeArguments="p4:Document" Name="DocumentObjectModel" />
+              </DelegateArgumentValue>
+            </InArgument>
+          </p2:KeywordBasedClassifier.DocumentObjectModel>
+          <p2:KeywordBasedClassifier.DocumentPath>
+            <InArgument x:TypeArguments="x:String">
+              <DelegateArgumentValue x:TypeArguments="x:String">
+                <DelegateInArgument x:TypeArguments="x:String" Name="DocumentPath" />
+              </DelegateArgumentValue>
+            </InArgument>
+          </p2:KeywordBasedClassifier.DocumentPath>
+          <p2:KeywordBasedClassifier.DocumentText>
+            <InArgument x:TypeArguments="x:String">
+              <DelegateArgumentValue x:TypeArguments="x:String">
+                <DelegateInArgument x:TypeArguments="x:String" Name="DocumentText" />
+              </DelegateArgumentValue>
+            </InArgument>
+          </p2:KeywordBasedClassifier.DocumentText>
+          <p2:KeywordBasedClassifier.DocumentTypes>
+            <InArgument x:TypeArguments="p3:ClassifierDocumentType[]">
+              <DelegateArgumentValue x:TypeArguments="p3:ClassifierDocumentType[]">
+                <DelegateInArgument x:TypeArguments="p3:ClassifierDocumentType[]" Name="DocumentTypes" />
+              </DelegateArgumentValue>
+            </InArgument>
+          </p2:KeywordBasedClassifier.DocumentTypes>
+          <p2:KeywordBasedClassifier.PredictionId>
+            <InArgument x:TypeArguments="x:String">
+              <DelegateArgumentValue x:TypeArguments="x:String">
+                <DelegateInArgument x:TypeArguments="x:String" Name="PredictionId" />
+              </DelegateArgumentValue>
+            </InArgument>
+          </p2:KeywordBasedClassifier.PredictionId>
+        </p2:KeywordBasedClassifier>
+      </p2:ClassifyDocumentScope.Classifiers>
+    </p2:ClassifyDocumentScope>
+    <p5:DataExtractionScope DocumentTypeId="{x:Null}" ApplyGenerativeValidation="False" ClassificationResult="[Classification_Results(0)]" DisplayName="Data Extraction Scope" DocumentObjectModel="[DOM]" DocumentPath="[Document_Path]" DocumentText="[Digital_Text]" ExtractionResult="[Extraction_Results]" FormatValuesIfPossible="True" GenerativeValidationConfidenceThreshold="99" sap:VirtualizedContainerService.HintSize="478,526.6666666666666" sap2010:WorkflowViewState.IdRef="DataExtractionScope_2" Taxonomy="[Taxonomy]" TaxonomyConfiguration="{}{&quot;TaxonomyMappings&quot;:{&quot;UIe252c09b62c44b5b9dd02172eb6d7c76&quot;:{&quot;DocumentTypeMappings&quot;:{&quot;Czech.Identity_Card.Pan_Card&quot;:{&quot;FieldMappings&quot;:{&quot;Czech.Identity_Card.Pan_Card.Surname&quot;:{&quot;OriginalTaxonomyFieldId&quot;:&quot;Czech.Identity_Card.Pan_Card.Surname&quot;,&quot;ExtractorTaxonomyFieldId&quot;:null,&quot;ShouldExtract&quot;:true},&quot;Czech.Identity_Card.Pan_Card.First_Name&quot;:{&quot;OriginalTaxonomyFieldId&quot;:&quot;Czech.Identity_Card.Pan_Card.First_Name&quot;,&quot;ExtractorTaxonomyFieldId&quot;:null,&quot;ShouldExtract&quot;:true},&quot;Czech.Identity_Card.Pan_Card.Date_of_Birth&quot;:{&quot;OriginalTaxonomyFieldId&quot;:&quot;Czech.Identity_Card.Pan_Card.Date_of_Birth&quot;,&quot;ExtractorTaxonomyFieldId&quot;:null,&quot;ShouldExtract&quot;:true},&quot;Czech.Identity_Card.Pan_Card.Gender&quot;:{&quot;OriginalTaxonomyFieldId&quot;:&quot;Czech.Identity_Card.Pan_Card.Gender&quot;,&quot;ExtractorTaxonomyFieldId&quot;:null,&quot;ShouldExtract&quot;:true},&quot;Czech.Identity_Card.Pan_Card.Place_of_Birth&quot;:{&quot;OriginalTaxonomyFieldId&quot;:&quot;Czech.Identity_Card.Pan_Card.Place_of_Birth&quot;,&quot;ExtractorTaxonomyFieldId&quot;:null,&quot;ShouldExtract&quot;:true},&quot;Czech.Identity_Card.Pan_Card.Date_of_Issue&quot;:{&quot;OriginalTaxonomyFieldId&quot;:&quot;Czech.Identity_Card.Pan_Card.Date_of_Issue&quot;,&quot;ExtractorTaxonomyFieldId&quot;:null,&quot;ShouldExtract&quot;:true},&quot;Czech.Identity_Card.Pan_Card.Date_of_Expiry&quot;:{&quot;OriginalTaxonomyFieldId&quot;:&quot;Czech.Identity_Card.Pan_Card.Date_of_Expiry&quot;,&quot;ExtractorTaxonomyFieldId&quot;:null,&quot;ShouldExtract&quot;:true},&quot;Czech.Identity_Card.Pan_Card.Document_No&quot;:{&quot;OriginalTaxonomyFieldId&quot;:&quot;Czech.Identity_Card.Pan_Card.Document_No&quot;,&quot;ExtractorTaxonomyFieldId&quot;:null,&quot;ShouldExtract&quot;:true},&quot;Czech.Identity_Card.Pan_Card.Signature&quot;:{&quot;OriginalTaxonomyFieldId&quot;:&quot;Czech.Identity_Card.Pan_Card.Signature&quot;,&quot;ExtractorTaxonomyFieldId&quot;:null,&quot;ShouldExtract&quot;:true},&quot;Czech.Identity_Card.Pan_Card.Nationality&quot;:{&quot;OriginalTaxonomyFieldId&quot;:&quot;Czech.Identity_Card.Pan_Card.Nationality&quot;,&quot;ExtractorTaxonomyFieldId&quot;:null,&quot;ShouldExtract&quot;:true}},&quot;ExtractorDocumentTypeId&quot;:null},&quot;Czech.Identity_Card_BackSide.Pan_Card_Backside&quot;:{&quot;FieldMappings&quot;:{&quot;Czech.Identity_Card_BackSide.Pan_Card_Backside.Address&quot;:{&quot;OriginalTaxonomyFieldId&quot;:&quot;Czech.Identity_Card_BackSide.Pan_Card_Backside.Address&quot;,&quot;ExtractorTaxonomyFieldId&quot;:null,&quot;ShouldExtract&quot;:true},&quot;Czech.Identity_Card_BackSide.Pan_Card_Backside.Contact_No&quot;:{&quot;OriginalTaxonomyFieldId&quot;:&quot;Czech.Identity_Card_BackSide.Pan_Card_Backside.Contact_No&quot;,&quot;ExtractorTaxonomyFieldId&quot;:null,&quot;ShouldExtract&quot;:true},&quot;Czech.Identity_Card_BackSide.Pan_Card_Backside.City&quot;:{&quot;OriginalTaxonomyFieldId&quot;:&quot;Czech.Identity_Card_BackSide.Pan_Card_Backside.City&quot;,&quot;ExtractorTaxonomyFieldId&quot;:null,&quot;ShouldExtract&quot;:true},&quot;Czech.Identity_Card_BackSide.Pan_Card_Backside.Authority&quot;:{&quot;OriginalTaxonomyFieldId&quot;:&quot;Czech.Identity_Card_BackSide.Pan_Card_Backside.Authority&quot;,&quot;ExtractorTaxonomyFieldId&quot;:null,&quot;ShouldExtract&quot;:true},&quot;Czech.Identity_Card_BackSide.Pan_Card_Backside.ID_No&quot;:{&quot;OriginalTaxonomyFieldId&quot;:&quot;Czech.Identity_Card_BackSide.Pan_Card_Backside.ID_No&quot;,&quot;ExtractorTaxonomyFieldId&quot;:null,&quot;ShouldExtract&quot;:true}},&quot;ExtractorDocumentTypeId&quot;:null}}}},&quot;ExtractorMinimumConfidence&quot;:{&quot;UIe252c09b62c44b5b9dd02172eb6d7c76&quot;:&quot;0&quot;},&quot;ExtractorsAliases&quot;:{},&quot;DocumentTypeOptionsByExtractor&quot;:{&quot;UIe252c09b62c44b5b9dd02172eb6d7c76&quot;:[]}}">
+      <p5:DataExtractionScope.Extractors>
+        <p5:FormExtractor SerializedSignatureFields="{x:Null}" ApiKey="pu0Z2AlXBHt3zKfvKAPhf2r+PBRm0jnHt0kqAYZnkQ3UJzB+eZsPKlRXzh1ZcVYjHzoSv5aarW300gAj3dqKqQ==" DisplayName="Form Extractor" Endpoint="https://du.uipath.com/svc/formextractor" sap:VirtualizedContainerService.HintSize="222.66666666666666,164.66666666666666" sap2010:WorkflowViewState.IdRef="FormExtractor_1" MinOverlapPercentage="65" PersistenceId="UIe252c09b62c44b5b9dd02172eb6d7c76" SendDocumentsForAlgorithmImprovements="True" SerializedSettings="{}{}" SerializedTemplates="[{&quot;DocumentTypeId&quot;:&quot;Czech.Identity_Card.Pan_Card&quot;,&quot;FormId&quot;:&quot;ffea8dce&quot;,&quot;FormName&quot;:&quot;Front_Side&quot;,&quot;OriginalFileExtension&quot;:&quot;jpg&quot;,&quot;Pages&quot;:[{&quot;Page&quot;:0,&quot;Size&quot;:[0.0,0.0,600.0,378.0],&quot;SkewAngle&quot;:-0.1,&quot;Evidence&quot;:[{&quot;Text&quot;:&quot;OBČANSKÝ&quot;,&quot;Box&quot;:[18.0,132.0,122.0,21.0]},{&quot;Text&quot;:&quot;PRŮKAZ&quot;,&quot;Box&quot;:[16.0,260.0,97.0,24.0]},{&quot;Text&quot;:&quot;ČESKÁ&quot;,&quot;Box&quot;:[16.0,372.0,75.0,23.0]},{&quot;Text&quot;:&quot;REPUBLIKA&quot;,&quot;Box&quot;:[19.0,453.0,126.0,20.0]},{&quot;Text&quot;:&quot;IDENTITY&quot;,&quot;Box&quot;:[44.0,134.0,104.0,14.0]},{&quot;Text&quot;:&quot;CARD&quot;,&quot;Box&quot;:[44.0,249.0,59.0,15.0]}],&quot;Fields&quot;:[{&quot;Field&quot;:&quot;Czech.Identity_Card.Pan_Card.Surname&quot;,&quot;Box&quot;:[74.9572,138.6195,175.5847,20.5362]},{&quot;Field&quot;:&quot;Czech.Identity_Card.Pan_Card.First_Name&quot;,&quot;Box&quot;:[98.5739,139.6463,322.4187,17.4558]},{&quot;Field&quot;:&quot;Czech.Identity_Card.Pan_Card.Date_of_Birth&quot;,&quot;Box&quot;:[134.5123,206.389,178.6651,19.5094]},{&quot;Field&quot;:&quot;Czech.Identity_Card.Pan_Card.Gender&quot;,&quot;Box&quot;:[136.5659,415.8585,96.5202,18.4826]},{&quot;Field&quot;:&quot;Czech.Identity_Card.Pan_Card.Place_of_Birth&quot;,&quot;Box&quot;:[181.7456,205.3622,247.4615,39.0188]},{&quot;Field&quot;:&quot;Czech.Identity_Card.Pan_Card.Date_of_Issue&quot;,&quot;Box&quot;:[290.5875,204.3354,160.1825,19.5094]},{&quot;Field&quot;:&quot;Czech.Identity_Card.Pan_Card.Date_of_Expiry&quot;,&quot;Box&quot;:[334.7404,202.2818,159.1557,21.563]},{&quot;Field&quot;:&quot;Czech.Identity_Card.Pan_Card.Document_No&quot;,&quot;Box&quot;:[46.2065,429.207,163.263,23.6167]},{&quot;Field&quot;:&quot;Czech.Identity_Card.Pan_Card.Signature&quot;,&quot;Box&quot;:[279.2926,379.9201,208.4427,92.413]},{&quot;Field&quot;:&quot;Czech.Identity_Card.Pan_Card.Nationality&quot;,&quot;Box&quot;:[247.4615,204.3354,170.4506,20.5362]}],&quot;Tables&quot;:[]}],&quot;AnchorBasedConfiguration&quot;:{&quot;AnchorBasedFieldConfiguration&quot;:[]}},{&quot;DocumentTypeId&quot;:&quot;Czech.Identity_Card_BackSide.Pan_Card_Backside&quot;,&quot;FormId&quot;:&quot;8019406e&quot;,&quot;FormName&quot;:&quot;Back_Side&quot;,&quot;OriginalFileExtension&quot;:&quot;jpg&quot;,&quot;Pages&quot;:[{&quot;Page&quot;:0,&quot;Size&quot;:[0.0,0.0,600.0,377.0],&quot;SkewAngle&quot;:-0.1,&quot;Evidence&quot;:[{&quot;Text&quot;:&quot;PERMANENT&quot;,&quot;Box&quot;:[15.0,130.0,56.0,10.0]},{&quot;Text&quot;:&quot;STAY&quot;,&quot;Box&quot;:[15.0,187.0,24.0,9.0]},{&quot;Text&quot;:&quot;PERSONAL&quot;,&quot;Box&quot;:[85.0,122.0,48.0,10.0]},{&quot;Text&quot;:&quot;NO.&quot;,&quot;Box&quot;:[84.0,171.0,19.0,11.0]},{&quot;Text&quot;:&quot;STAV&quot;,&quot;Box&quot;:[116.0,205.0,25.0,10.0]}],&quot;Fields&quot;:[{&quot;Field&quot;:&quot;Czech.Identity_Card_BackSide.Pan_Card_Backside.Address&quot;,&quot;Box&quot;:[27.7239,44.1529,312.1506,53.3942]},{&quot;Field&quot;:&quot;Czech.Identity_Card_BackSide.Pan_Card_Backside.Contact_No&quot;,&quot;Box&quot;:[96.5202,46.2065,166.3434,15.4022]},{&quot;Field&quot;:&quot;Czech.Identity_Card_BackSide.Pan_Card_Backside.City&quot;,&quot;Box&quot;:[127.3246,159.1557,152.9949,16.429]},{&quot;Field&quot;:&quot;Czech.Identity_Card_BackSide.Pan_Card_Backside.Authority&quot;,&quot;Box&quot;:[154.0217,161.2093,240.2738,43.1261]},{&quot;Field&quot;:&quot;Czech.Identity_Card_BackSide.Pan_Card_Backside.ID_No&quot;,&quot;Box&quot;:[243.3542,12.3217,577.0678,108.842]}],&quot;Tables&quot;:[]}],&quot;AnchorBasedConfiguration&quot;:{&quot;AnchorBasedFieldConfiguration&quot;:[]}}]" Timeout="100000">
+          <p5:FormExtractor.DocumentBounds>
+            <InArgument x:TypeArguments="p7:ResultsDocumentBounds">
+              <DelegateArgumentValue x:TypeArguments="p7:ResultsDocumentBounds">
+                <DelegateInArgument x:TypeArguments="p7:ResultsDocumentBounds" Name="DocumentBounds" />
+              </DelegateArgumentValue>
+            </InArgument>
+          </p5:FormExtractor.DocumentBounds>
+          <p5:FormExtractor.DocumentObjectModel>
+            <InArgument x:TypeArguments="p4:Document">
+              <DelegateArgumentValue x:TypeArguments="p4:Document">
+                <DelegateInArgument x:TypeArguments="p4:Document" Name="DocumentObjectModel" />
+              </DelegateArgumentValue>
+            </InArgument>
+          </p5:FormExtractor.DocumentObjectModel>
+          <p5:FormExtractor.DocumentPath>
+            <InArgument x:TypeArguments="x:String">
+              <DelegateArgumentValue x:TypeArguments="x:String">
+                <DelegateInArgument x:TypeArguments="x:String" Name="DocumentPath" />
+              </DelegateArgumentValue>
+            </InArgument>
+          </p5:FormExtractor.DocumentPath>
+          <p5:FormExtractor.DocumentText>
+            <InArgument x:TypeArguments="x:String">
+              <DelegateArgumentValue x:TypeArguments="x:String">
+                <DelegateInArgument x:TypeArguments="x:String" Name="DocumentText" />
+              </DelegateArgumentValue>
+            </InArgument>
+          </p5:FormExtractor.DocumentText>
+          <p5:FormExtractor.ExtractorDocumentType>
+            <InArgument x:TypeArguments="p6:ExtractorDocumentType">
+              <DelegateArgumentValue x:TypeArguments="p6:ExtractorDocumentType">
+                <DelegateInArgument x:TypeArguments="p6:ExtractorDocumentType" Name="ExtractorDocumentType" />
+              </DelegateArgumentValue>
+            </InArgument>
+          </p5:FormExtractor.ExtractorDocumentType>
+          <p5:FormExtractor.ExtractorResult>
+            <OutArgument x:TypeArguments="p6:ExtractorResult">
+              <DelegateArgumentReference x:TypeArguments="p6:ExtractorResult">
+                <DelegateOutArgument x:TypeArguments="p6:ExtractorResult" Name="ExtractorResult" />
+              </DelegateArgumentReference>
+            </OutArgument>
+          </p5:FormExtractor.ExtractorResult>
+          <p5:FormExtractor.PredictionId>
+            <InArgument x:TypeArguments="x:String">
+              <DelegateArgumentValue x:TypeArguments="x:String">
+                <DelegateInArgument x:TypeArguments="x:String" Name="PredictionId" />
+              </DelegateArgumentValue>
+            </InArgument>
+          </p5:FormExtractor.PredictionId>
+        </p5:FormExtractor>
+      </p5:DataExtractionScope.Extractors>
+    </p5:DataExtractionScope>
+    <p:PresentValidationStation FieldsValidationConfidence="{x:Null}" AutomaticExtractionResults="[Extraction_Results]" DisplayName="Present Validation Station" DocumentObjectModel="[DOM]" DocumentPath="[Document_Path]" DocumentText="[Digital_Text]" sap:VirtualizedContainerService.HintSize="478,408.6666666666667" sap2010:WorkflowViewState.IdRef="PresentValidationStation_2" ShowOnlyRelevantPageRange="False" Taxonomy="[Taxonomy]" ValidatedExtractionResults="[Validation_Results]" />
+    <p5:ExportExtractionResults DataSet="[Dataset]" DisplayName="Export Extraction Results" ExtractionResult="[Extraction_Results]" sap:VirtualizedContainerService.HintSize="478,211.33333333333334" sap2010:WorkflowViewState.IdRef="ExportExtractionResults_2" IncludeConfidence="False" IncludeOCRConfidence="False" />
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="478,57.333333333333336" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+      <ui:CommentOut.Body>
+        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="512,538" sap2010:WorkflowViewState.IdRef="Sequence_7">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:ForEach x:TypeArguments="sd2:DataTable" CurrentIndex="{x:Null}" DisplayName="For Each currentDataTable" sap:VirtualizedContainerService.HintSize="450,450" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[Dataset.Tables]">
+            <ui:ForEach.Body>
+              <ActivityAction x:TypeArguments="sd2:DataTable">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="sd2:DataTable" Name="currentDataTable" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,311.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="x:String" Name="DT_Output" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:OutputDataTable DataTable="[currentDataTable]" DisplayName="Output Data Table as Text" sap:VirtualizedContainerService.HintSize="354,114" sap2010:WorkflowViewState.IdRef="OutputDataTable_1" Text="[DT_Output]" />
+                  <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="354,109.33333333333333" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[DT_Output]" />
+                </Sequence>
+              </ActivityAction>
+            </ui:ForEach.Body>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </ui:ForEach>
+        </Sequence>
+      </ui:CommentOut.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:CommentOut>
+    <ui:MergeDataTable Destination="[DT]" DisplayName="Merge Data Table" sap:VirtualizedContainerService.HintSize="478,167.33333333333334" sap2010:WorkflowViewState.IdRef="MergeDataTable_2" MissingSchemaAction="Add" Source="[Dataset.Tables(0)]" />
+    <ui:PathExists Resource="{x:Null}" DisplayName="Path Exists" Exists="[PathExits]" sap:VirtualizedContainerService.HintSize="478,57.333333333333336" sap2010:WorkflowViewState.IdRef="PathExists_1" Path="C:\Users\Jayesh Patil\OneDrive - RABBIT AND TORTOISE TECHNOLOGY SOLUTIONS PRIVATE LIMITED\Desktop\UIImageExtractionCzech.xlsx" PathType="File">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:PathExists>
+    <If Condition="[PathExits]" sap:VirtualizedContainerService.HintSize="478,492.6666666666667" sap2010:WorkflowViewState.IdRef="If_2">
+      <If.Then>
+        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,104" sap2010:WorkflowViewState.IdRef="Sequence_8">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </Sequence>
+      </If.Then>
+      <If.Else>
+        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,226.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_9">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:WriteRange StartingCell="{x:Null}" AddHeaders="True" DataTable="[Dataset.Tables(0)]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="354,138.66666666666666" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Sheet1" WorkbookPath="C:\Users\Jayesh Patil\OneDrive - RABBIT AND TORTOISE TECHNOLOGY SOLUTIONS PRIVATE LIMITED\Desktop\UIImageExtractionCzech.xlsx" />
+        </Sequence>
+      </If.Else>
+    </If>
+  </Sequence>
+</Activity>

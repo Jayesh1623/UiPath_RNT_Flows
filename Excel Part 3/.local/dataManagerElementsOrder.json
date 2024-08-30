@@ -1,0 +1,72 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "DT1&Sequence_1",
+        "varcolumns&Sequence_1",
+        "varrows&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Child seq1.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Dt&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Child seq2.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "vartemp&Sequence_1",
+        "varhumi&Sequence_1",
+        "varout&Sequence_1",
+        "vartemp&Sequence_12",
+        "varhumi&Sequence_12"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "child seq3.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "vardt&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "child seq4.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "varout&Sequence_1",
+        "varhumi&Sequence_1",
+        "vartemp&Sequence_1",
+        "index&Sequence_4",
+        "cellindex&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

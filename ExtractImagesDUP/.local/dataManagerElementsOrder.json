@@ -1,0 +1,52 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "DT&Sequence_1",
+        "PathExits&Sequence_1",
+        "DT_Output&Sequence_2",
+        "Dataset&Sequence_1",
+        "Validation_Results&Sequence_1",
+        "Extraction_Results&Sequence_1",
+        "Classification_Results&Sequence_1",
+        "DOM&Sequence_1",
+        "Digital_Text&Sequence_1",
+        "Document_Path&Sequence_1",
+        "Taxonomy&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Taxonomy&Sequence_5",
+        "Document_Path&Sequence_5",
+        "Digital_Text&Sequence_5",
+        "DOM&Sequence_5",
+        "Classification_Results&Sequence_5",
+        "Extraction_Results&Sequence_5",
+        "Validation_Results&Sequence_5",
+        "Dataset&Sequence_5",
+        "PathExits&Sequence_5",
+        "DT&Sequence_5",
+        "DT_Output&Sequence_6"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
